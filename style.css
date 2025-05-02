@@ -1,0 +1,25 @@
+.filter-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 800px; /* Largura máxima do filtro */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    padding: 0 20px; /* Espaçamento nas laterais */
+}
+
+.filter-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    grid-column: 1 / -1;
+    font-size: 1.1rem;
+    width: 50%; /* Largura do botão */
+    margin: 0 auto; /* Centraliza o botão */
+}
